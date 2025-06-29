@@ -1,0 +1,28 @@
+{
+  "name": "@egstudio/libsdk",
+  "version": "1.0.0",
+  "description": "A SDK for managing libraries using a custom format.",
+  "keywords": [
+    "sdk",
+    "libsdk",
+    "egstudio"
+  ],
+  "homepage": "https://github.com/Evergreen-Studios/libSdk-npm#readme",
+  "bugs": {
+    "url": "https://github.com/Evergreen-Studios/libSdk-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evergreen-Studios/libSdk-npm.git"
+  },
+  "license": "MIT",
+  "author": "Evergreen Studios",
+  "type": "module",
+  "exports": {
+    ".": "./sdk.js"
+  },
+  "types": "./sdk.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
